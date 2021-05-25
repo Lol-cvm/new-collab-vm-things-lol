@@ -7,8 +7,8 @@ start "rippcassist.dll"
 wmic os where primary=1 reboot
 
 ez 666 bytes am pro 666 bytes yes bc yes haha yes haha no haha yes
-e
-e
+e yes sir why not haha yes
+e hrudjrjrjrr
 e
 e
 e
