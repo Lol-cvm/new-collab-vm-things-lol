@@ -19,3 +19,10 @@ wmic os where primary=1 reboot
 
 ez 666 bytes
 e
+e
+e
+e
+e
+e
+e
+e
